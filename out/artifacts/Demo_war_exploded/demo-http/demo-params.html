@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="/ShopManager/ServletDemo1" method="post">
+		姓名：<input type="text" name="username"><br/>
+		年龄：<input type="text" name="age"><br/>
+		性别：<input type="radio" name="sex" value="男">男
+			<input type="radio" name="sex" value="女">女<br/>
+		籍贯：<select name="city">
+				<option value="北京市">北京市</option>
+				<option value="上海市">上海市</option>
+				<option value="广州市">广州市</option>
+			</select><br/>
+		爱好：<input type="checkbox" name="hoby" value="篮球">篮球
+			<input type="checkbox" name="hoby" value="足球">足球
+			<input type="checkbox" name="hoby" value="乒乓球">乒乓球
+			<input type="checkbox" name="hoby" value="羽毛球">羽毛球<br/>
+		介绍：<textarea rows="5" cols="6" name="info"></textarea><br/>
+		<input type="submit" value="提交"><br/>
+	</form>
+</body>
+</html>

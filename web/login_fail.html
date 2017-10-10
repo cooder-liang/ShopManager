@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录失败</title>
+    <meta http-equiv="refresh" content="5;url=login.htm"/>
+
+    <script>
+        var time=5;
+        window.onload=function () {
+            setInterval("changeTime()",1000);
+        }
+
+        function changeTime() {
+            time--;
+            document.getElementById("s1").innerHTML=time;
+        }
+
+    </script>
+
+</head>
+<body>
+    <h1 align="center">登录失败页面将在<font color="red"><span id="s1">5</span></font>秒钟后进行跳转</h1>
+</body>
+</html>
